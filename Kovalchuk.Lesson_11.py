@@ -2,7 +2,8 @@ a = (13244, 43, 'gff')
 b = ['gfgffg', '3443', '434ggf', 145]
 c = 578
 d = 'Anna, go HOme'
-e = True
+e = {1:'nnn', 2:'vvv'}
+f = True
 def f(x):
     if type(x) == tuple:
         print(f'Длина кортежа {x}:', len(a))
@@ -33,3 +34,4 @@ f(b)
 f(c)
 f(d)
 f(e)
+f(f)
