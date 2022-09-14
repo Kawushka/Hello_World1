@@ -4,33 +4,32 @@
 # Пятая операция тоже через функцию (для выхода из калькулятора)
 # По желанию использовать декоратор
 
+c = ['+', '-', '*', '/']
 act = " "
-
-
-def plus(a, b):
-    return float(a) + float(b)
-
-
-def minus(a, b):
-    return float(a) - float(b)
-
-
-def umnoj(a, b):
-    return float(a) * float(b)
-
-
-def delenie(a, b):
-    try:
-        return float(a) / float(b)
-    except ZeroDivisionError:
-        print('Деление на ноль!')
-
-
-def exit():
-    print('Спасибо за использование калькулятора!')
-
-
 while act != "":
+    def plus(a, b):
+        return float(a) + float(b)
+
+
+    def minus(a, b):
+        return float(a) - float(b)
+
+
+    def umnoj(a, b):
+        return float(a) * float(b)
+
+
+    def delenie(a, b):
+        try:
+            return float(a) / float(b)
+        except ZeroDivisionError:
+            print('Деление на ноль!')
+
+
+    def exit():
+        print('Спасибо за использование калькулятора!')
+
+
     vvod1 = input('Введите первое число: ')
     act = input('Укажите действие:\n'
                 '"+" - сложение \n'
@@ -39,7 +38,7 @@ while act != "":
                 '"/" - деление\n'
                 'Для выхода ничего не указывайте\n'
                 'Ваш выбор: ')
-    if act in '+-*/' and act !='':
+    if act in c:
         vvod2 = input('Введите второе число: ')
         if act == "+":
             print(f'Сумма двух чисел: {vvod1} + {vvod2} = {plus(vvod1, vvod2)}')
