@@ -17,14 +17,14 @@ class Example:
     def __init__(self, dinam1, dinam2):
         self.a = dinam1
         self.b = dinam2
-    def print(self, c):
-        self.peremennaya = c
-        return self.peremennaya
+    def pechat(self):
+        peremennaya = 5
+        print(peremennaya)
     def summa(self, peremen1, peremen2):
         return peremen1 + peremen2
     def stepen(self):
         return self.a ** self.b
 object = Example(2, 6)
-print(object.print('fdfgdfdf d sdf s'))
+object.pechat()
 print(object.summa(peremen1, peremen2))
 print(object.stepen())
