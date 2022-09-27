@@ -56,9 +56,9 @@
 # print(','.join(spisok_strok)) #в join сначала указываем, каким символом разделять объединенные строки
 # print('gfv,gv fg'.split(',')) #у split в конце пишем символ, по которому нужно разорвать строку
 #
-# spisok_strok = ['dgg','gffggf','srrsc']
-# sp_2 = ''.join(spisok_strok)
-# print(sp_2)
+spisok_strok = ['dgg','gffggf','srrsc']
+sp_2 = ''.join(spisok_strok)
+print(sp_2)
 # # d g g g ff g g fsrrsc
 # sp_2 = (sp_2).split('g',2)
 # print(sp_2)
@@ -108,10 +108,10 @@
 # 2.уникальные элементы первого списка
 # 3.уникальные элементы второго списка.
 
-from random import randint
-a = [randint(0, i) for i in range(randint(1, 10))] #выводим случайное число от 1 до 10 случайное количество раз
-b = [randint(0, i) for i in range(randint(1, 10))]
-print(a, b)
+# from random import randint
+# a = [randint(0, i) for i in range(randint(1, 10))] #выводим случайное число от 1 до 10 случайное количество раз
+# b = [randint(0, i) for i in range(randint(1, 10))]
+# print(a, b)
 # c = []
 # for i in a:
 #     if i in b and i not in c:
