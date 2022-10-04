@@ -1,0 +1,8 @@
+('Usher - Yeah', 200)
+('Anastacia - Left Outside Alone', 210)
+('Nirvana - Rape Me', 187)
+('Maksim - Знаешь Ли Ты', 212)
+('Imagine Dragons - Bones', 302)
+('Imagine Dragons - Thunder', 196)
+('MITTI, The First Station - Drama', 217)
+('ONEIL, KANVISE - Only You', 235)
